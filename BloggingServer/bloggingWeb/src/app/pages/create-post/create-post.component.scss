@@ -1,0 +1,47 @@
+.center-card {
+    max-width: 600px;            // Controls card width
+    margin: 40px auto;           // Centers the card horizontally
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffe4ec;   // Light pink background (change as needed)
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  // Align button to the right
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  
+    button[mat-raised-button] {
+      background-color: #ad1457 !important; // Dark pink
+      color: #fff !important;
+      font-weight: bold;
+  
+      &:hover {
+        background-color: #880e4f !important; 
+      }
+    }
+  }
+  
+  // Example styling for mat-chip
+  mat-chip {
+    background-color: #f8bbd0;   // Soft pink
+    color: #4a001f;
+    font-weight: 500;
+  }
+  
+  mat-icon {
+    color: #880e4f;
+  }
+  

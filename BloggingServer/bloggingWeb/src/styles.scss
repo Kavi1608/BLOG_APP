@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  background-color: #fff0f5; // Light Pink background
+  color: #333;
+}
+
+/* 💖 Pink Theme Variables */
+:root {
+  --mat-toolbar-background: #f48fb1;  // Pink
+  --mat-toolbar-color: #ffffff;
+  --primary-button-bg: #ec407a;       // Rose
+  --primary-button-hover: #d81b60;
+  --accent-color: #f06292;
+  --light-background: #ffffff;
+  --card-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Toolbar */
+.mat-toolbar {
+  background-color: var(--mat-toolbar-background) !important;
+  color: var(--mat-toolbar-color) !important;
+}
+
+/* Buttons */
+button[mat-raised-button] {
+  background-color: var(--primary-button-bg);
+  color: white;
+  margin-left: 10px;
+
+  &:hover {
+    background-color: var(--primary-button-hover);
+  }
+}
+
+/* Icon Buttons */
+button[mat-icon-button] {
+  color: white;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+  }
+}
+
+/* Card Styling */
+.mat-card {
+  background-color: var(--light-background);
+  box-shadow: var(--card-shadow);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* Smooth Transitions */
+* {
+  transition: background-color 0.3s, color 0.3s;
+}
+/* Buttons - Dark Pink 💖 */
+button[mat-raised-button] {
+  background-color: #ad1457 !important;  // Dark Pink
+  color: white !important;
+  margin-left: 10px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(173, 20, 87, 0.4); // subtle shadow
+
+  &:hover {
+    background-color: #880e4f !important;  // Even darker on hover
+  }
+}
+body {
+  background-color: #fff0f5; // soft light pink for full page
+}
+

@@ -1,0 +1,45 @@
+.card-container {
+    margin: 16px auto;     // center the card horizontally
+    max-width: 600px;      // narrower than 60%
+    padding-bottom: 30px;
+  }
+  
+  mat-card {
+    padding: 10px;
+  }
+  
+  /* For the small avatar in the card header, if you use it */
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  mat-card-content {
+    margin-top: 10px;
+  }
+  
+  mat-card-footer {
+    margin-left: 20px;
+  }
+  
+  /* The main post image */
+  .img {
+    width: 100%;
+    max-height: 300px;      // limits the vertical size
+    height: auto;           // keeps original aspect ratio
+    object-fit: contain;    // shows entire image (no cropping)
+    border-radius: 8px;     // optional rounded corners
+  }
+  
+  .comment-card {
+    margin-top: 20px;
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  

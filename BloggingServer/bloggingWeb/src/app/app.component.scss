@@ -1,0 +1,22 @@
+.custom-toolbar {
+  background-color: var(--mat-toolbar-background) !important;
+  color: var(--mat-toolbar-color) !important;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.app-title {
+  margin-left: 12px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+/* Optional: Padding for routed content */
+::ng-deep router-outlet + * {
+  padding: 1rem;
+}
